@@ -6,7 +6,12 @@ from agent import generate_response
 
 # tag::setup[]
 # Page Config
-st.set_page_config("Ebert", page_icon=":movie_camera:")
+st.set_page_config("Mitch - RAG - LLM", page_icon=":blue_heart:")
+st.title("ChatGPT-via RAG - langchain")
+st.caption('Made by Mitch in Melbourne 	:blue_heart:')
+with st.container():
+   st.write("This chatbot is connecting to OPEN AI Chat GPT through API...")
+
 # end::setup[]
 
 # tag::session[]
