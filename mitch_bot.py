@@ -11,6 +11,7 @@ st.title("ChatGPT-via RAG - langchain")
 st.caption('Made by Mitch in Melbourne 	:blue_heart:')
 with st.container():
    st.write("This chatbot is connecting to OPEN AI Chat GPT through API...")
+   st.write("This bad boy also calls neo4j thrugh GraphCypherQAChain, but I haven't done that yet.")
 
 # end::setup[]
 
@@ -18,7 +19,7 @@ with st.container():
 # Set up Session State
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi, I'm the GraphAcademy Chatbot!  How can I help you?"},
+        {"role": "assistant", "content": "Hi, I'm EBERT the GraphAcademy Chatbot! How can I help you? Fun fact!  I repeat your questions after I answer them.. who knows why!?"},
     ]
 # end::session[]
 

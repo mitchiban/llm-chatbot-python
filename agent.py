@@ -25,7 +25,7 @@ tools = [
 memory = ConversationBufferWindowMemory(
     memory_key='chat_history',
     k=5,
-    return_messages=True,
+    return_messages=False,
 )
 # end::memory[]
 
